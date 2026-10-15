@@ -1,7 +1,6 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-Gemfile.lock
-.bundle
+# Sphinx build output
+_build/
+
+# Python
+__pycache__/
+.venv/

@@ -1,12 +1,13 @@
-# Huira Validation Repository
+# Huira Validation
 
-*Description coming soon*
+Comparisons of [Huira](https://www.huira.space) renders against real flight imagery,
+published at https://validation.huira.space.
 
-## Development
+## Building locally
 
-### Testing
-To test the website locally before deploying on github pages, run:
-
+```bash
+pip install -r requirements.txt
+sphinx-build -W -b html . _build/html
 ```
-bundle exec jekyll serve
-```
+
+Then open `_build/html/index.html`.
